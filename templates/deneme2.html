@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basit Form</title>
+    <meta charset="UTF-8">
+    <style>
+        body { text-align: center; }
+        form { display: inline-block; }
+        .logo { margin-top: 20px; }
+        .question { margin: 10px 0; }
+    </style>
+
+</head>
+<body>
+  <div class="logo">
+      <img src="https://btm.istanbul/storage/uploads/startup/3540/image002.png" alt="Marka Logosu">
+      <h1>Kant Akademi</h1>
+  </div>
+
+  <form action="http://127.0.0.1:5000/choose" method="POST">
+    <p>İsminiz: <input type="text" name="name"></p>
+    <p>Soru 1 (0-10): <input type="number" name="q1" min="0" max="10"></p>
+    <p>Soru 2 (0-10): <input type="number" name="q2" min="0" max="10"></p>
+    <p>Soru 3 (0-10): <input type="number" name="q3" min="0" max="10"></p>
+    <p>Soru 4 (0-10): <input type="number" name="q4" min="0" max="10"></p>
+    <p>Soru 5 (0-10): <input type="number" name="q5" min="0" max="10"></p>
+    <input type="submit" value="En Uygun Seçeneği Bul">
+</form>
+
+</body>
+
+
+
+
+</html>
